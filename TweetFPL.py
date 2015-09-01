@@ -3,6 +3,8 @@
 ## A quick and dirty twitter bot that automatically tweets FPL2015 information
 
 import time, sched
+
+# Import the twitter authentication credentials
 from TweetFPLAuth import *
 
 MESSAGE_FILE = 'Schedule.csv'
@@ -10,9 +12,16 @@ START_TIME = time.time()
 
 def tweet_event(message):
 	print "TWEET:", time.strftime('%d/%m/%Y %H:%M:%S', time.localtime()), message
+	twitter.send_direct_message('jayemel', message)
 
 print 'Running TweetFPL, the FPL 2015 twitter message server.\n'
 
+# Set up the Twitter library
+auth = tweepy.OAuthHandler(ConsumerKey, ConsumerSecret)
+auth.set_access_token(AccessToken, AccessTokenSecret)
+twitter = tweepy.API(auth)
+
+# Start up the scheduler
 scheduler = sched.scheduler(time.time, time.sleep)
 
 # Open the file and load messages into a list
