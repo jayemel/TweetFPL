@@ -12,7 +12,7 @@ START_TIME = time.time()
 
 def tweet_event(message):
 	print "TWEET:", time.strftime('%d/%m/%Y %H:%M:%S', time.localtime()), message
-	twitter.update_status('jayemel', text=message)
+	twitter.update_status(status=message)
 
 print 'Running TweetFPL, the FPL2015 twitter message server.\n'
 
