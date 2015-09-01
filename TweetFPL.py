@@ -2,7 +2,7 @@
 
 ## A quick and dirty twitter bot that automatically tweets FPL2015 information
 
-import time, sched
+import time, sched, tweepy
 
 # Import the twitter authentication credentials
 from TweetFPLAuth import *
@@ -12,9 +12,9 @@ START_TIME = time.time()
 
 def tweet_event(message):
 	print "TWEET:", time.strftime('%d/%m/%Y %H:%M:%S', time.localtime()), message
-	twitter.send_direct_message('jayemel', message)
+	twitter.update_status('jayemel', text=message)
 
-print 'Running TweetFPL, the FPL 2015 twitter message server.\n'
+print 'Running TweetFPL, the FPL2015 twitter message server.\n'
 
 # Set up the Twitter library
 auth = tweepy.OAuthHandler(ConsumerKey, ConsumerSecret)
@@ -25,7 +25,6 @@ twitter = tweepy.API(auth)
 scheduler = sched.scheduler(time.time, time.sleep)
 
 # Open the file and load messages into a list
-messages = []
 with open(MESSAGE_FILE) as f:
 	for line in f:
 		if line:
@@ -39,6 +38,8 @@ with open(MESSAGE_FILE) as f:
 				if (trigger > START_TIME):
 					# Register the trigger
 					scheduler.enterabs(trigger, 1, tweet_event, (data[-1],))
+
+print scheduler.queue
 
 # Run the scheduler
 scheduler.run()
