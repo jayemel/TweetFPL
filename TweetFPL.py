@@ -32,14 +32,16 @@ with open(MESSAGE_FILE) as f:
 			if line[0] is not '#':
 				# Split the line into a list
 				data = line.rstrip().split(';')
+				# Check that the tweets aren't too long
+				if len(data[-1]) > 140:
+						print 'Tweet is too long:', data[-1]
+						exit()
 				# Convert the date and time into UTC
 				trigger = time.mktime(time.strptime(' '.join(data[0:2]), '%d/%m/%Y %H:%M:%S'))
 				# Only accept future messages
 				if (trigger > START_TIME):
 					# Register the trigger
 					scheduler.enterabs(trigger, 1, tweet_event, (data[-1],))
-
-print scheduler.queue
 
 # Run the scheduler
 scheduler.run()
