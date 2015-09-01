@@ -10,13 +10,13 @@ START_TIME = time.time()
 def tweet_event(message):
 	print "TWEET:", time.strftime('%d/%m/%Y %H:%M:%S', time.localtime()), message
 
-print 'Running TweetFPL, they FPL 2015 twitter message server.\n'
+print 'Running TweetFPL, the FPL 2015 twitter message server.\n'
 
 scheduler = sched.scheduler(time.time, time.sleep)
 
 # Open the file and load messages into a list
 messages = []
-# Previous tri	gger time and default priority
+# Previous trigger time and default priority
 priority = [0,1]
 with open(MESSAGE_FILE) as f:
 	for line in f:
