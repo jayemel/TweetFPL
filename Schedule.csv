@@ -1,5 +1,9 @@
 #Date;Time;Message
 #DD/MM/YY;HH:MM;Message string
-01/09/2015;11:00;A message to send to twitter.
-01/09/2015;11:05;Another message to send to twitter.
-01/09/2015;11:05;A message to be sent at the same time as the previous.
+01/09/2015;11:23:00;A message to send to twitter.
+01/09/2015;11:25:00;Another message to send to twitter.
+01/09/2015;11:25:00;A message to be sent at the same time as the previous.
+01/09/2015;11:25:00;And another.
+01/09/2015;11:24:00;A message that is out of order.
+01/09/2015;11:27:00;;And back into the normal flow.
+01/09/2015;11:24:00;And an out of order one at the same time.
