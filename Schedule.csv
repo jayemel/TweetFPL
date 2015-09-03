@@ -1,17 +1,38 @@
 #DD/MM/YY;HH:MM;Message
-01/09/2015;18:43:00;FPL 2015 starts tomorrow! Peter, Wayne and the rest of the FPL team are looking forward to seeing you at the Royal Institution. #FPL2015
-02/09/2015;08:10:00;Welcome to FPL 2015! Registration opens at 08:15 in the Ante Room. #FPL2015
-02/09/2015;08:40:00;The welcome session is starting in the Theatre in five minutes. #FPL2015
-02/09/2015;08:55:00;The keynote Extending the Power of FPGAs to Software Developers by Salil Raje is starting in the Theatre. #FPL2015
-02/09/2015;09:55:00;The PhD Forum poster session will be starting in the Georgian Room shortly. #FPL2015
-02/09/2015;10:35:00;Applications 1: Linear Algebra and Control Applications is starting in the Theatre. #FPL2015
-02/09/2015;10:35:00;Architectures & Technology 1: Energy-efficient and Low-power Architectures is starting in the Conversation Room now. #FPL2015
-02/09/2015;10:35:00;Design Methods & Tools 1: Parallelism and Logic Design will be starting in the Demo Room shortly. #FPL2015
-02/09/2015;11:55:00;Please join us for lunch in the Library and Georgian Rooms. #FPL2015
-02/09/2015;12:55:00;David Lariviere's keynote, Applications of FPGAs to the Financial Trading Industry, is in the Theatre now. #FPL2015
-02/09/2015;13:55:00;Our special session, FPL - The Past 25 Years and the Next 25 Years, is starting in the Theatre. #FPL2015
-02/09/2015;14:55:00;The Applications poster session is now happening in the Georgian Room. #FPL2015
-02/09/2015;15:35:00;The special session is recommencing in the Theatre. #FPL2015
-02/09/2015;17:55:00;Philip Leong is introducing the FPL significant papers in the Library. #FPL2015
-02/09/2015;18:10:00;It's time for Demo Night! Join us for drinks and canapes in the Library. #FPL2015
-02/09/2015;20:00:00;We hope you enjoyed the first day of FPL 2015. See you tomorrow! #FPL2015
+## First Day
+#01/09/2015;18:43:00;FPL 2015 starts tomorrow! Peter, Wayne and the rest of the FPL team are looking forward to seeing you at the Royal Institution. #FPL2015
+#02/09/2015;08:10:00;Welcome to FPL 2015! Registration opens at 08:15 in the Ante Room. #FPL2015
+#02/09/2015;08:40:00;The welcome session is starting in the Theatre in five minutes. #FPL2015
+#02/09/2015;08:55:00;The keynote Extending the Power of FPGAs to Software Developers by Salil Raje is starting in the Theatre. #FPL2015
+#02/09/2015;09:55:00;The PhD Forum poster session will be starting in the Georgian Room shortly. #FPL2015
+#02/09/2015;10:35:00;Applications 1: Linear Algebra and Control Applications is starting in the Theatre. #FPL2015
+#02/09/2015;10:35:00;Architectures & Technology 1: Energy-efficient and Low-power Architectures is starting in the Conversation Room now. #FPL2015
+#02/09/2015;10:35:00;Design Methods & Tools 1: Parallelism and Logic Design will be starting in the Demo Room shortly. #FPL2015
+#02/09/2015;11:55:00;Please join us for lunch in the Library and Georgian Rooms. #FPL2015
+#02/09/2015;12:55:00;David Lariviere's keynote, Applications of FPGAs to the Financial Trading Industry, is in the Theatre now. #FPL2015
+#02/09/2015;13:55:00;Our special session, FPL - The Past 25 Years and the Next 25 Years, is starting in the Theatre. #FPL2015
+#02/09/2015;14:55:00;The Applications poster session is now happening in the Georgian Room. #FPL2015
+#02/09/2015;15:35:00;The special session is recommencing in the Theatre. #FPL2015
+#02/09/2015;17:55:00;Philip Leong is introducing the FPL significant papers in the Library. #FPL2015
+#02/09/2015;18:10:00;It's time for Demo Night! Join us for drinks and canapes in the Library. #FPL2015
+#02/09/2015;20:00:00;We hope you enjoyed the first day of FPL 2015. See you tomorrow! #FPL2015
+## Second Day
+03/09/2015;08:15:00;It is day two of FPL 2015. Registration is now open. #FPL2015
+03/09/2015;08:55:00;Mike Hutton's keynote, Architectural Paths to Faster and More Robust FPGAs, is about to start in the Theatre. #FPL2015
+03/09/2015;09:55:00;The Architectures & Technology poster session is starting in the Georgian Room shortly. #FPL2015
+03/09/2015;10:35:00;Applications 2: Computer Vision and Numerical Applications is about to start in the Theatre. #FPL2015
+03/09/2015;10:35:00;Architectures & Technology 2: Cryptography and Security Architectures is in the Conversation Room now. #FPL2015
+03/09/2015;10:35:00;Design Methods & Tools 2: Accelerators and High-level Synthesis starting in the Demo Room. #FPL2015
+03/09/2015;11:55:00;Please join us for lunch in the Library and Georgian Rooms. #FPL2015
+03/09/2015;12:55:00;The keynote European High-performance Computing Strategy and Outlook by Panagiotis Tsarchopoulos is in the Theatre now. #FPL2015
+03/09/2015;13:45:00;Paolo Ienne is introducing FPL 2016 in the Theatre. #FPL2015
+03/09/2015;13:55:00;Applications 3: Pattern-matching and Search Applications is about to begin in the Theatre. #FPL2015
+03/09/2015;13:55:00;Architectures & Technology 3: Reconfigurable Computing and Architectures is starting in the Conversation Room. #FPL2015
+03/09/2015;13:55:00;Design Methods & Tools 3: Simulation and Emulation is in the Demo Room now. #FPL2015
+03/09/2015;14:55:00;The Design Methods & Tools poster session is in the Georgian Room. #FPL2015
+03/09/2015;15:35:00;Applications 4: High-level Synthesis and Optimisation is about to begin in the Theatre. #FPL2015
+03/09/2015;15:35:00;Architectures & Technology 4: Architectures and Synthesis is starting in the Conversation Room. #FPL2015
+03/09/2015;15:35:00;Design Methods & Tools 4: Hybrid FPGA-based Systems is in the Demo Room now. #FPL2015
+03/09/2015;17:00:00;That was another great day of talks at FPL 2015!
+03/09/2015;17:05:00;Don't forget that the FPL 2015 banquet is at Imperial College in South Kensington at 18:15. #FPL2015
+03/09/2015;18:15:00;Enjoy the banquet! #FPL2015
